@@ -23,3 +23,5 @@
 	（7） 通过position：relative、float：left和margin-left实现： 给父元素position：relative，子元素为float：left和margin-left属性；
 ```
 ##### 剩下两条详情见[百度百科CSS的九种居中方法](http://jingyan.baidu.com/article/86112f1381081127379787bb.html?allowHTTP=1)
+
+**垂直水平居中最好用margin0 auto 和绝对定位来解决！方碧昂快捷~哈哈哈哈**
