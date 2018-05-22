@@ -24,4 +24,43 @@
 ```
 ##### 剩下两条详情见[百度百科CSS的九种居中方法](http://jingyan.baidu.com/article/86112f1381081127379787bb.html?allowHTTP=1)
 
-**垂直水平居中最好用margin0 auto 和绝对定位来解决！方碧昂快捷~哈哈哈哈**
+**垂直水平居中最好用margin0 auto 和绝对定位来解决！方便快捷~哈哈哈哈**
+
+#### 还是注意高度
+
+```
+源码展示：
+ .call>ul{
+	width: 100%;
+	height: 161px;
+} 
+.call div>span {
+	float: right;
+	width: 125px;
+	color: #787f8b;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 45px;
+}
+
+修改后：
+ .call>ul{
+	width: 80%;
+	height: 161px;
+	float:left;
+} 
+.call>div{
+	width: 125px;
+	height: 125px;
+	float: right;
+	margin-top: 45px;
+}
+.call div>span {
+	color: #787f8b;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 45px;
+}
+
+```
+**修改后ul有高度、宽度了，不过发现二维码显示不全了，后期修改后二维码显示全后增加了一个二维码title属性，鼠标滑上去显示文字；并且格式更加严谨了。**
